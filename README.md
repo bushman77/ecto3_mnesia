@@ -44,7 +44,7 @@ You can include ecto3_mnesia in your dependencies as follow:
 ```
   defp deps do
     ...
-    {:ecto3_mnesia, "~> 0.2.0"},
+    {:ecto3_mnesia, git: "https://github.com/bushman77/ecto3_mnesia.git"},
     ...
   end
 ```
